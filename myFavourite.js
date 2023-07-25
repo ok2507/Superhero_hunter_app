@@ -44,7 +44,7 @@ function getFavStorage() {
       let div = document.createElement("div");
       div.classList.add("character-card");
       div.setAttribute("id", id);
-      let detailsPath = `../superherodetails.html#${id}`;
+      let detailsPath = `./superherodetails.html#${id}`;
       div.innerHTML = `
           <img class="poster" src=${path}.jpg alt="">
           <div class="card-body">
